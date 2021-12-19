@@ -111,3 +111,10 @@ There are six classes applied for enter/leave transitions.
 
 
 <img src="https://vuejs.org/images/transition.png" />
+
+Each of these classes will be prefixed with the name of the transition. 
+
+Here the `v-` prefix is the default when you use a `&lt;transition&gt;` element with no name. 
+
+If you use `&lt;transition name="my-transition"&gt;` for example, 
+then the `v-enter` class would instead be `my-transition-enter`.'
