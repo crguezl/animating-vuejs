@@ -5,7 +5,7 @@
 
 ## Talk Animating VueJS
 
-As superfluous as something like animation may initially seem, you can tell a lot about framework by the way that it handles the concept of time. 
+As superfluous as something like animation may initially seem, **you can tell a lot about framework by the way that it handles the concept of time**. 
 
 Idiosyncrasies and race conditions in rendering reveal themselves, pauses in DOM and virtual DOM diffing can be exposed. 
 
