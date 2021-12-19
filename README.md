@@ -39,6 +39,8 @@ Sarah Drasner
 
 * [Enter/Leave & List Transitions](https://vuejs.org/v2/guide/transitions.html)
 
+### Example
+
 ```html
 <div id="demo">
   <button v-on:click="show = !show">
@@ -68,8 +70,11 @@ Sarah Drasner
 </style>
 ``` 
 
+[See the example running](examples/hello-transition.html)
 
-When an element wrapped in a transition component is inserted or removed, this is what happens:
+### The Transition Component Algorithm
+
+When an element wrapped in a **transition component** is inserted or removed, this is what happens:
 
 1. Vue will automatically sniff whether the target element has CSS transitions or animations applied. 
 2. If it does, CSS transition classes will be added/removed at appropriate timings.
