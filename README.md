@@ -11,7 +11,11 @@ Idiosyncrasies and race conditions in rendering reveal themselves, pauses in DOM
 
 This is one of the ways Vue shows itself to be uniquely capable and elegant.
 
-In this session, we'll cover the basics of working with Vue, how to use the component and some of its offerings to create fluid effects in the browser. 
+In this session, we'll cover 
+
+1. the basics of working with Vue, 
+2. how to use the component and 
+3. some of its offerings to create fluid effects in the browser. 
 
 We'll move on to 
 
