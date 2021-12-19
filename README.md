@@ -70,7 +70,7 @@ Sarah Drasner
 </style>
 ``` 
 
-[See the example running](examples/hello-transition.html)
+[See the example running](https://crguezl.github.io/animating-vuejs/hello-transition.html)
 
 ### The Transition Component Algorithm
 
