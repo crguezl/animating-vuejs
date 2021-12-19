@@ -1,10 +1,15 @@
 <script src="https://unpkg.com/vue"></script>
 <h1 id="transitions-in-vue.js">Transitions in Vue.js</h1>
 <h2 id="talk-animating-vuejs">Talk Animating VueJS</h2>
-<p>As superfluous as something like animation may initially seem, you can tell a lot about framework by the way that it handles the concept of time.</p>
+<p>As superfluous as something like animation may initially seem, <strong>you can tell a lot about framework by the way that it handles the concept of time</strong>.</p>
 <p>Idiosyncrasies and race conditions in rendering reveal themselves, pauses in DOM and virtual DOM diffing can be exposed.</p>
 <p>This is one of the ways Vue shows itself to be uniquely capable and elegant.</p>
-<p>In this session, we’ll cover the basics of working with Vue, how to use the component and some of its offerings to create fluid effects in the browser.</p>
+<p>In this session, we’ll cover</p>
+<ol type="1">
+<li>the basics of working with Vue,</li>
+<li>how to use the component and</li>
+<li>some of its offerings to create fluid effects in the browser.</li>
+</ol>
 <p>We’ll move on to</p>
 <ul>
 <li>watchers,</li>
@@ -62,8 +67,9 @@
 <li>Vue will automatically sniff whether the target element has CSS transitions or animations applied.</li>
 <li>If it does, CSS transition classes will be added/removed at appropriate timings.</li>
 <li>If the transition component provided JavaScript hooks, these hooks will be called at appropriate timings.</li>
-<li>If no CSS transitions/animations are detected and no <a href="https://vuejs.org/v2/guide/transitions.html#JavaScript-Hooks">JavaScript hooks</a> are provided, the DOM operations for insertion and/or removal will be executed immediately on next frame
+<li>If no CSS transitions/animations are detected and no <a href="https://vuejs.org/v2/guide/transitions.html#JavaScript-Hooks">JavaScript hooks</a> are provided,
 <ul>
+<li>the DOM operations for insertion and/or removal will be executed immediately on next frame</li>
 <li>(Note: this is a browser animation frame, different from Vue’s concept of <code>nextTick</code>).</li>
 </ul></li>
 </ol>
@@ -99,3 +105,7 @@
 <li>Added one frame after a leaving transition is triggered (at the same time v-leave is removed), removed when the transition/animation finishes.</li>
 </ul></li>
 </ul>
+<p><img src="https://vuejs.org/images/transition.png" /></p>
+<p>Each of these classes will be prefixed with the name of the transition.</p>
+<p>Here the <code>v-</code> prefix is the default when you use a <code>&lt;transition&gt;</code> element with no name.</p>
+<p>If you use <code>&lt;transition name="my-transition"&gt;</code> for example, then the <code>v-enter</code> class would instead be <code>my-transition-enter</code>.’</p>

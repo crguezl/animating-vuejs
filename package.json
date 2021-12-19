@@ -1,0 +1,24 @@
+{
+  "name": "animating-vuejs",
+  "version": "1.0.0",
+  "description": "<script src=\"https://unpkg.com/vue\"></script>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "npm run pandoc; git add .; git ci -am transitions; git push",
+    "pandoc": "pandoc README.md -o docs/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crguezl/animating-vuejs.git"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crguezl/animating-vuejs/issues"
+  },
+  "homepage": "https://github.com/crguezl/animating-vuejs#readme"
+}
