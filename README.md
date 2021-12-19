@@ -108,3 +108,6 @@ There are six classes applied for enter/leave transitions.
   * This class can be used to define the duration, delay and easing curve for the leaving transition.
 * `v-leave-to`: Only available in versions 2.1.8+. Ending state for leave. 
   * Added one frame after a leaving transition is triggered (at the same time v-leave is removed), removed when the transition/animation finishes.
+
+
+<img src="https://vuejs.org/images/transition.png" />
